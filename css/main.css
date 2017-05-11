@@ -1,0 +1,96 @@
+.contenedor{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+#gato-uno , #gato-dos , #gato-tres{
+	position: absolute;
+	top:50%;
+	padding: 20%;
+	height: auto;
+
+}
+
+
+@media (min-width: 1025px) {
+
+	#paisaje-dos{
+		display:none;
+	}
+	#paisaje-tres{
+		display: none;
+	}
+
+	#gato-dos{
+		display: none;
+	}
+	#gato-tres{
+		display: none;
+	}
+}
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	#paisaje-uno{
+		display: none;
+	}
+	#paisaje-tres{
+		display: none;
+	}
+	#gato-dos{
+		display: none;
+	}
+	#gato-tres{
+		display: none;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 481px){
+	#paisaje-uno{
+		display: none;
+	}
+	#paisaje-tres{
+		display: none;
+	}
+	#gato-uno{
+		display: none;
+	}
+
+	#gato-tres{
+		display: none;
+	}
+}
+
+@media (max-width: 480px) and (min-width: 321px) {
+	#paisaje-uno{
+		display: none;
+	}
+	#paisaje-dos{
+		display:none;
+	}
+
+	#gato-uno{
+		display: none;
+	}
+
+	#gato-tres{
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	#paisaje-uno{
+		display: none;
+	}
+	#paisaje-dos{
+		display:none;
+	}
+
+	#gato-uno{
+		display: none;
+	}
+	#gato-dos{
+		display: none;
+	}
+}
